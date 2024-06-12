@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono&display=swap");
+
+* {
+  font-family: "Reddit Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
