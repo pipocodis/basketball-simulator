@@ -59,6 +59,10 @@ img {
   width: auto;
 }
 
+img:hover {
+  box-shadow: 0px 0px 5px 5px #999999;
+}
+
 #footer {
   display: flex;
   justify-content: center;
@@ -75,4 +79,9 @@ h4 {
 
 span {
   color: white;
+}
+
+#github {
+  font-weight: 600;
+  font-size: 18px;
 }
