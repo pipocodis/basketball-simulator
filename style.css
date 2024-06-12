@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Reddit+Mono&display=swap");
 
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
 * {
   font-family: "Reddit Mono", monospace;
   margin: 0;
@@ -11,7 +15,7 @@ body {
 }
 
 #header {
-  height: 12vh;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,10 +56,23 @@ a:hover {
 
 img {
   height: 500px;
-  width: 350px;
+  width: auto;
 }
 
-img:hover {
-  height: 550px;
-  width: 400px;
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: #0080ff;
+  gap: 5px;
+}
+
+h4 {
+  color: white;
+  font-size: 18px;
+}
+
+span {
+  color: white;
 }
